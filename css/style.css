@@ -57,6 +57,12 @@ nav {
   z-index: 99;
 }
 
+@media screen and (min-width: 993px) {
+  #triangle-right {
+    display: none;
+  }
+}
+
 #triangle-right {
   position: relative;
   top: -30px;
