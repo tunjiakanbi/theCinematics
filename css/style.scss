@@ -10,17 +10,27 @@ $font3: zingendeL;
     font-family: assistant;
     src: url("../fonts/assistant-v4-latin-regular.woff");
 }
+
 @font-face {
     font-family: zingendeB;
     src: url("../fonts/ZingendeW00Bold.woff");
 }
+
 @font-face {
     font-family: zingendeL;
-    src: url("../fonts/Zingende\ W00\ Light.ttf"); 
+    src: url("../fonts/Zingende\ W00\ Light.ttf");
 }
+
 body {
     background-color: $color3;
+    color: #fff;
+    position: relative;
 }
+
+.navbar-brand {
+    margin-bottom: 0;
+}
+
 .col-md-6 {
     height: 100vh;
 }
@@ -49,4 +59,3 @@ header {
 // #FCF9E9
 // #BFA10A
 // #020126
-
