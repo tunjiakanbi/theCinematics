@@ -1,7 +1,7 @@
 $color1: #FCF9E9;
 $color2: #BFA10A;
 $color3: #020126;
-
+$color4: rgba(62, 63, 89, 1);
 $font1: assistant;
 $font2: zingendeB;
 $font3: zingendeL;
@@ -50,3 +50,27 @@ header {
     height: 100vh;
     position: relative;
 }
+
+nav {
+    background-color: $color4;
+}
+
+.navbar-toggler {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-nav {
+    position: absolute;
+    z-index: 99;
+}
+#triangle-right {
+    position: relative;
+    top: -30px;
+    left: -30px;
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-left: 300px solid $color2;
+    border-bottom: 150px solid transparent;
+  }

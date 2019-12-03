@@ -42,4 +42,29 @@ header {
   height: 100vh;
   position: relative;
 }
+
+nav {
+  background-color: #3e3f59;
+}
+
+.navbar-toggler {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-nav {
+  position: absolute;
+  z-index: 99;
+}
+
+#triangle-right {
+  position: relative;
+  top: -30px;
+  left: -30px;
+  width: 0;
+  height: 0;
+  border-top: 150px solid transparent;
+  border-left: 300px solid #BFA10A;
+  border-bottom: 150px solid transparent;
+}
 /*# sourceMappingURL=style.css.map */
