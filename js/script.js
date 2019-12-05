@@ -33,6 +33,7 @@ $(document).ready(function () {
 $('.navbar-toggler').on('click', function(){
     // $('#navbar-brand-span').toggle();
     $('#navbar-brand-span').toggleClass('hide');
+    //to hide logo when hamburger is clicked, still needs some tweaking
 })
 
 
