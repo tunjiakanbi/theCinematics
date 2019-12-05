@@ -31,11 +31,12 @@ $(document).ready(function () {
         $('.navbar-collapse').collapse('hide');
     });
 $('.navbar-toggler').on('click', function(){
-    // $('#navbar-brand-span').toggle();
+    //  $('#navbar-brand-span').toggle();
     $('#navbar-brand-span').toggleClass('hide');
+    $('.collapse').addClass('no-transition').collapse('toggle');
     //to hide logo when hamburger is clicked, still needs some tweaking
-})
-
+});
+// $('.collapse').addClass('no-transition').collapse('toggle');
 
     //document.ready ends here
 });

@@ -86,7 +86,7 @@ nav {
   .hide {
       visibility: hidden;
   }
-  .show {
-      padding: 0;
-      margin: 0;
-  }
+
+.no-transition {
+    transition: none !important;
+}

@@ -80,8 +80,8 @@ nav {
   visibility: hidden;
 }
 
-.show {
-  padding: 0;
-  margin: 0;
+.no-transition {
+  -webkit-transition: none !important;
+  transition: none !important;
 }
 /*# sourceMappingURL=style.css.map */
