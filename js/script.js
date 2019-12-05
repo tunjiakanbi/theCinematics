@@ -28,16 +28,15 @@ $(document).ready(function () {
 
     //fix navcar collapse
     $('.navbar-nav>li>a').on('click', function () {
-        // $('.myButton').on('click', function () {
         $('.navbar-collapse').collapse('hide');
-         $('.animated-icon3').toggleClass('open');
+         $('.animated-icon').toggleClass('open');
          $('#navbar-brand-span').toggleClass('hide');
     });
  
 $('.navbar-toggler').on('click', function(){
     $('#navbar-brand-span').toggleClass('hide');
     $('.collapse').addClass('no-transition').collapse('toggle');
-    $('.animated-icon3').toggleClass('open');
+    $('.animated-icon').toggleClass('open');
 });
     //document.ready ends here
 });
