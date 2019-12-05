@@ -30,9 +30,17 @@ $(document).ready(function () {
     $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
+    var clicked = false;
 $('.navbar-toggler').on('click', function(){
+    clicked == true;
+    if(clicked==true){
+        $('#navbar-brand-span').addClass('hide');
+    }
+    else {
+        $('#navbar-brand-span').removeClass('hide');
+    }
     //  $('#navbar-brand-span').toggle();
-    $('#navbar-brand-span').toggleClass('hide');
+    // $('#navbar-brand-span').toggleClass('hide');
     $('.collapse').addClass('no-transition').collapse('toggle');
     //to hide logo when hamburger is clicked, still needs some tweaking
 });
