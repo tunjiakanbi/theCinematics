@@ -31,7 +31,8 @@ $(document).ready(function () {
         $('.navbar-collapse').collapse('hide');
     });
 $('.navbar-toggler').on('click', function(){
-    $('#navbar-brand-span').toggle();
+    // $('#navbar-brand-span').toggle();
+    $('#navbar-brand-span').toggleClass('hide');
 })
 
 
