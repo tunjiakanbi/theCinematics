@@ -28,23 +28,16 @@ $(document).ready(function () {
 
     //fix navcar collapse
     $('.navbar-nav>li>a').on('click', function () {
+        // $('.myButton').on('click', function () {
         $('.navbar-collapse').collapse('hide');
+         $('.animated-icon3').toggleClass('open');
+         $('#navbar-brand-span').toggleClass('hide');
     });
-    var clicked = false;
+ 
 $('.navbar-toggler').on('click', function(){
-    clicked == true;
-    if(clicked==true){
-        $('#navbar-brand-span').addClass('hide');
-    }
-    else {
-        $('#navbar-brand-span').removeClass('hide');
-    }
-    //  $('#navbar-brand-span').toggle();
-    // $('#navbar-brand-span').toggleClass('hide');
+    $('#navbar-brand-span').toggleClass('hide');
     $('.collapse').addClass('no-transition').collapse('toggle');
-    //to hide logo when hamburger is clicked, still needs some tweaking
+    $('.animated-icon3').toggleClass('open');
 });
-// $('.collapse').addClass('no-transition').collapse('toggle');
-
     //document.ready ends here
 });
