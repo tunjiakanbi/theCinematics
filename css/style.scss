@@ -50,6 +50,7 @@ header {
 #movie,
 #shop,
 #contact {
+    margin-left: 30px;
     padding-top: 66px;
     width: 100vw;
     height: 100vh;
@@ -60,6 +61,7 @@ nav {
     background-color: $color4;
     // height: 88px;
     border-bottom: 2px solid $color2;
+    text-align: center;
 }
 
 .navbar-toggler {
@@ -72,22 +74,47 @@ nav {
     z-index: 1199;
 }
 
+.navbar-brand span {
+    color: $color2;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bolder;
+}
+
+#navbar-brand-span-top {
+    color: $color2;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bolder;
+}
+
+ul {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
 @media screen and (min-width: 993px) {
     #triangle-right {
         display: none;
     }
 }
 
+@media screen and (max-width: 993px) {
+    ul.navbar-nav {
+        margin-top: 40px;
+    }
+}
+
 #triangle-right {
     position: relative;
-    top: -30px;
+    top: 0px;
     left: -30px;
     margin-right: 30px;
     width: 0;
     height: 0;
-    border-top: 150px solid transparent;
-    border-left: 300px solid $color2;
-    border-bottom: 150px solid transparent;
+    border-top: 200px solid transparent;
+    border-left: 450px solid $color2;
+    border-bottom: 200px solid transparent;
     z-index: 1198;
 }
 
@@ -249,9 +276,4 @@ nav {
 
 .row{
     margin-bottom:100px;
-}
-
-.navbar-brand span {
-    color: $color2;
-    font-size: 24px;
 }
