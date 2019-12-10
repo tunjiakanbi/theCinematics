@@ -50,6 +50,7 @@ header {
 
 nav {
   background-color: #3e3f59;
+  border-bottom: 2px solid #BFA10A;
 }
 
 .navbar-toggler {
