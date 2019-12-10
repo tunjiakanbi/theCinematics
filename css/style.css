@@ -65,6 +65,10 @@ nav {
   z-index: 1199;
 }
 
+.navbar-brand {
+  margin-top: 10px;
+}
+
 .navbar-brand span {
   color: #BFA10A;
   font-size: 36px;
@@ -81,7 +85,7 @@ nav {
 
 ul {
   margin-left: 20px;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 @media screen and (min-width: 993px) {
@@ -103,9 +107,9 @@ ul {
   margin-right: 30px;
   width: 0;
   height: 0;
-  border-top: 200px solid transparent;
+  border-top: 175px solid transparent;
   border-left: 450px solid #BFA10A;
-  border-bottom: 200px solid transparent;
+  border-bottom: 175px solid transparent;
   z-index: 1198;
 }
 
