@@ -158,11 +158,23 @@ nav {
 }
 
 #form {
-  background-image: url("prototype assets/gold_clapperboard-copy.svg");
+  background-image: url("/prototype assets/gold_clapperboard-copy.svg");
+  background-position: center top;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 18rem;
 }
 
 label {
   text-transform: uppercase;
+}
+
+.form-control {
+  background: #020126;
+  border-radius: 0;
+  border: solid 2px #FCF9E9;
 }
 
 .btn {
