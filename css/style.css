@@ -236,4 +236,9 @@ nav {
 .row {
   margin-bottom: 100px;
 }
+
+.navbar-brand span {
+  color: #BFA10A;
+  font-size: 24px;
+}
 /*# sourceMappingURL=style.css.map */
