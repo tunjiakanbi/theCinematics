@@ -156,4 +156,20 @@ nav {
   top: 21px;
   left: 8px;
 }
+
+#form {
+  background-image: url("prototype assets/gold_clapperboard-copy.svg");
+}
+
+label {
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 5px 20px;
+  background: #020126;
+  color: #BFA10A;
+  border: solid 2px #FCF9E9;
+  border-radius: 15px;
+}
 /*# sourceMappingURL=style.css.map */
