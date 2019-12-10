@@ -59,6 +59,7 @@ header {
 nav {
     background-color: $color4;
     // height: 88px;
+    border-bottom: 2px solid $color2;
 }
 
 .navbar-toggler {
@@ -240,19 +241,17 @@ nav {
     // text-align:center;   
 
 }
-.btn:hover{
+.btn:hover {
     background-color: $color4;
     color:$color2;
     transition: 0.6s;
 }
-.col-md-6{
-    // margin-right:10px;
-}
+
 .row{
     margin-bottom:100px;
 }
-// .colebio,.altmanbio,.thecimatics{
-//     justify-content: center;
-//     line-height: 100px;
-//     vertical-align: middle;
-// }
+
+.navbar-brand span {
+    color: $color2;
+    font-size: 24px;
+}
