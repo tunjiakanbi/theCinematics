@@ -27,7 +27,7 @@ $(document).ready(function () {
     });
 
     //fix navcar collapse
-    $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-toggler').on('click', function () {
         $('.navbar-collapse').collapse('hide');
          $('.animated-icon').toggleClass('open');
     });
