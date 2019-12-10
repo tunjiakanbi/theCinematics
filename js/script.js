@@ -30,7 +30,6 @@ $(document).ready(function () {
     $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
          $('.animated-icon').toggleClass('open');
-         $('#navbar-brand-span').toggleClass('hide');
     });
  
 $('.navbar-toggler').on('click', function(){
