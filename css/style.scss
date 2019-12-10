@@ -50,6 +50,7 @@ header {
 #movie,
 #shop,
 #contact {
+    margin-left: 30px;
     padding-top: 66px;
     width: 100vw;
     height: 100vh;
@@ -59,6 +60,11 @@ header {
 nav {
     background-color: $color4;
     // height: 88px;
+<<<<<<< HEAD
+=======
+    border-bottom: 2px solid $color2;
+    text-align: center;
+>>>>>>> Updated cinematics logo and navigation. Fixed triangle accordingly.
 }
 
 .navbar-toggler {
@@ -71,22 +77,47 @@ nav {
     z-index: 1199;
 }
 
+.navbar-brand span {
+    color: $color2;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bolder;
+}
+
+#navbar-brand-span-top {
+    color: $color2;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bolder;
+}
+
+ul {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
 @media screen and (min-width: 993px) {
     #triangle-right {
         display: none;
     }
 }
 
+@media screen and (max-width: 993px) {
+    ul.navbar-nav {
+        margin-top: 40px;
+    }
+}
+
 #triangle-right {
     position: relative;
-    top: -30px;
+    top: 0px;
     left: -30px;
     margin-right: 30px;
     width: 0;
     height: 0;
-    border-top: 150px solid transparent;
-    border-left: 300px solid $color2;
-    border-bottom: 150px solid transparent;
+    border-top: 200px solid transparent;
+    border-left: 450px solid $color2;
+    border-bottom: 200px solid transparent;
     z-index: 1198;
 }
 
@@ -259,6 +290,7 @@ nav {
     transition: 0.6s;
 =======
 
+<<<<<<< HEAD
 label {
     text-transform: uppercase;
 >>>>>>> ced539685243099576f3bcf4ecdf48b78b132173
@@ -291,3 +323,8 @@ label {
 >>>>>>> tunji2 branch created
 =======
 >>>>>>> yes
+=======
+.row{
+    margin-bottom:100px;
+}
+>>>>>>> Updated cinematics logo and navigation. Fixed triangle accordingly.

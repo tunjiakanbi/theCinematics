@@ -33,7 +33,6 @@ $(document).ready(function () {
     });
  
 $('.navbar-toggler').on('click', function(){
-    $('#navbar-brand-span').toggleClass('hide');
     $('.collapse').addClass('no-transition').collapse('toggle');
     $('.animated-icon').toggleClass('open');
 });
