@@ -185,12 +185,20 @@ nav {
 /************************* styling About section***********************/
 #about h1{
     margin-bottom:50px;
+    color: $color2;
 }
 .image{
     width:100%;
     height:auto;
 }
-.c,.cinematics,.a{
+.cinematics{
+    width:900px;
+  
+    border: 2px solid $color1;
+    margin: 0 auto;
+   
+}
+.c,.a{
     width:400px;
     border:2px solid $color1;
     margin: 10px;
@@ -201,14 +209,22 @@ nav {
 .cole,.altman{
       width:320px;
 }
-.thecinematics,.cole,.altman{ 
+.cole,.altman{ 
     width: 420px;
     border: 2px solid $color2;
     height: 450px;
     // padding:10px 10px 10px 10px;
 }
 .thecinematics{
-    height:250px;
+    
+    margin-bottom:180px;
+    width:920px;
+    height: 540px;
+    border: 2px solid $color2;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top:10px;
+    
 }
 .cole{
     height:425px;
@@ -246,11 +262,22 @@ nav {
     transition: 0.6s;
 }
 
+
 .row{
     margin-bottom:100px;
+    display: flex;
 }
-// .colebio,.altmanbio,.thecimatics{
-//     justify-content: center;
-//     line-height: 100px;
-//     vertical-align: middle;
-// }
+.modal-body p{
+    color:$color3;
+    font-family: $font1;
+}
+.bio{
+    background-color: $color3;
+    font-size: 1em;
+}
+.modal-header h5{
+    color: $color3;
+    text-transform: uppercase;
+    font-family: $font2;
+    font-size:1.5em;
+}
