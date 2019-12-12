@@ -51,11 +51,8 @@ header {
 
 nav {
   background-color: #3e3f59;
-<<<<<<< HEAD
-=======
   border-bottom: 2px solid #BFA10A;
   text-align: center;
->>>>>>> Updated cinematics logo and navigation. Fixed triangle accordingly.
 }
 
 .navbar-toggler {
@@ -202,6 +199,13 @@ ul {
   padding-top: 18rem;
 }
 
+.btn:hover {
+  background-color: #3e3f59;
+  color: #BFA10A;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
 label {
   text-transform: uppercase;
 }
@@ -213,39 +217,14 @@ label {
 }
 
 .btn {
-<<<<<<< HEAD
-  background-color: transparent;
-  border: 2px solid #FCF9E9;
-  color: #BFA10A;
-  font-family: zingendeL;
-  font-size: 20px;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 20px;
-}
-
-.btn:hover {
-  background-color: #3e3f59;
-  color: #BFA10A;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.row {
-  margin-bottom: 100px;
-<<<<<<< HEAD
-=======
   padding: 5px 20px;
   background: #020126;
   color: #BFA10A;
   border: solid 2px #FCF9E9;
   border-radius: 15px;
->>>>>>> ced539685243099576f3bcf4ecdf48b78b132173
-=======
->>>>>>> Updated cinematics logo and navigation. Fixed triangle accordingly.
+}
+
+.row {
+  margin-bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */
