@@ -59,7 +59,6 @@ header {
 nav {
     background-color: $color4;
     // height: 88px;
-    border-bottom: 2px solid $color2;
 }
 
 .navbar-toggler {
@@ -183,75 +182,51 @@ nav {
     top: 21px;
     left: 8px;
 }
-/************************* styling About section***********************/
-#about h1{
-    margin-bottom:50px;
-}
-.image{
-    width:100%;
-    height:auto;
-}
-.c,.cinematics,.a{
-    width:400px;
-    border:2px solid $color1;
-    margin: 10px;
-    justify-content: center;
-    line-height: 100px;
-    vertical-align: middle;
-}
-.cole,.altman{
-      width:320px;
-}
-.thecinematics,.cole,.altman{ 
-    width: 420px;
-    border: 2px solid $color2;
-    height: 450px;
-    // padding:10px 10px 10px 10px;
-}
-.thecinematics{
-    height:250px;
-}
-.cole{
-    height:425px;
-}
-.altman{
-    height:425px;
-}
-#about p{
-    font-family: $font1;
-    font-size: 1em;
-}
-#about h2{
-    font-family: $font3;
-    text-align: center;
-}
-.btn{
-    background-color:transparent;
-    border:2px solid $color1;
-    color:$color2;
-    font-family: $font3;
-    font-size: 20px;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius:20px;
-    // text-align:center;   
 
+#form {
+    background-image: url("/prototype assets/gold_clapperboard-copy.svg");
+    background-position: center top;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 18rem;
 }
-.btn:hover {
+<<<<<<< HEAD
+.btn:hover{
     background-color: $color4;
     color:$color2;
     transition: 0.6s;
+=======
+
+label {
+    text-transform: uppercase;
+>>>>>>> ced539685243099576f3bcf4ecdf48b78b132173
 }
 
-.row{
-    margin-bottom:100px;
+.form-control {
+    background: $color3;
+    border-radius: 0;
+    border: solid 2px $color1;
 }
+<<<<<<< HEAD
+// .colebio,.altmanbio,.thecimatics{
+//     justify-content: center;
+//     line-height: 100px;
+//     vertical-align: middle;
+// }
+=======
 
-.navbar-brand span {
+.btn {
+    padding: 5px 20px;
+    background: $color3;
     color: $color2;
+<<<<<<< HEAD
     font-size: 24px;
 }
+=======
+    border: solid 2px $color1;
+    border-radius: 15px;
+}
+>>>>>>> ced539685243099576f3bcf4ecdf48b78b132173
+>>>>>>> master
