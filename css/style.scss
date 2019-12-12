@@ -60,11 +60,8 @@ header {
 nav {
     background-color: $color4;
     // height: 88px;
-<<<<<<< HEAD
-=======
     border-bottom: 2px solid $color2;
     text-align: center;
->>>>>>> Updated cinematics logo and navigation. Fixed triangle accordingly.
 }
 
 .navbar-toggler {
@@ -217,65 +214,6 @@ ul {
     top: 21px;
     left: 8px;
 }
-<<<<<<< HEAD
-=======
-/************************* styling About section***********************/
-#about h1{
-    margin-bottom:50px;
-}
-.image{
-    width:100%;
-    height:auto;
-}
-.c,.cinematics,.a{
-    width:400px;
-    border:2px solid $color1;
-    margin: 10px;
-    justify-content: center;
-    line-height: 100px;
-    vertical-align: middle;
-}
-.cole,.altman{
-      width:320px;
-}
-.thecinematics,.cole,.altman{ 
-    width: 420px;
-    border: 2px solid $color2;
-    height: 450px;
-    // padding:10px 10px 10px 10px;
-}
-.thecinematics{
-    height:250px;
-}
-.cole{
-    height:425px;
-}
-.altman{
-    height:425px;
-}
-#about p{
-    font-family: $font1;
-    font-size: 1em;
-}
-#about h2{
-    font-family: $font3;
-    text-align: center;
-}
-.btn{
-    background-color:transparent;
-    border:2px solid $color1;
-    color:$color2;
-    font-family: $font3;
-    font-size: 20px;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius:20px;
-    // text-align:center;   
->>>>>>> yes
 
 <<<<<<< HEAD
 #form {
