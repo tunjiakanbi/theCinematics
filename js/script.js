@@ -25,12 +25,13 @@ $(document).ready(function () {
                 });
         }
     });
-
+    var winWidth = $(window).width();
+    console.log(winWidth);
     //fix navcar collapse
     $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
-         $('.animated-icon').toggleClass('open');
-         $('#navbar-brand-span').toggleClass('hide');
+         $('.animated-icon').removeClass('open');
+         $('#navbar-brand-span').removeClass('hide');
     });
  
 $('.navbar-toggler').on('click', function(){
@@ -38,5 +39,10 @@ $('.navbar-toggler').on('click', function(){
     $('.collapse').addClass('no-transition').collapse('toggle');
     $('.animated-icon').toggleClass('open');
 });
+$(window).resize(function(){
+    $('.animated-icon').removeClass('open');
+    $('#navbar-brand-span').removeClass('hide');
+    $('.navbar-collapse').collapse('hide'); 
+})
     //document.ready ends here
 });
