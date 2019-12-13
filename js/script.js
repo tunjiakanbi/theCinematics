@@ -30,19 +30,19 @@ $(document).ready(function () {
     //fix navcar collapse
     $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
-         $('.animated-icon').removeClass('open');
-         $('#navbar-brand-span').removeClass('hide');
+        $('.animated-icon').removeClass('open');
+        $('#navbar-brand-span').removeClass('hide');
     });
- 
-$('.navbar-toggler').on('click', function(){
-    $('#navbar-brand-span').toggleClass('hide');
-    $('.collapse').addClass('no-transition').collapse('toggle');
-    $('.animated-icon').toggleClass('open');
-});
-$(window).resize(function(){
-    $('.animated-icon').removeClass('open');
-    $('#navbar-brand-span').removeClass('hide');
-    $('.navbar-collapse').collapse('hide'); 
-})
+
+    $('.navbar-toggler').on('click', function () {
+        $('#navbar-brand-span').toggleClass('hide');
+        $('.collapse').addClass('no-transition').collapse('toggle');
+        $('.animated-icon').toggleClass('open');
+    });
+    $(window).resize(function () {
+        $('.animated-icon').removeClass('open');
+        $('#navbar-brand-span').removeClass('hide');
+        $('.navbar-collapse').collapse('hide');
+    })
     //document.ready ends here
 });
