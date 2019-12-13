@@ -178,36 +178,10 @@ label {
 }
 
 .btn {
-<<<<<<< HEAD
-  background-color: transparent;
-  border: 2px solid #FCF9E9;
-  color: #BFA10A;
-  font-family: zingendeL;
-  font-size: 20px;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 20px;
-}
-
-.btn:hover {
-  background-color: #3e3f59;
-  color: #BFA10A;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.row {
-  margin-bottom: 100px;
-=======
   padding: 5px 20px;
   background: #020126;
   color: #BFA10A;
   border: solid 2px #FCF9E9;
   border-radius: 15px;
->>>>>>> ced539685243099576f3bcf4ecdf48b78b132173
 }
 /*# sourceMappingURL=style.css.map */
