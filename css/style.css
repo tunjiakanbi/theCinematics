@@ -227,4 +227,10 @@ label {
 .row {
   margin-bottom: 100px;
 }
+
+#footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
