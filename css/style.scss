@@ -28,6 +28,7 @@ body {
     overflow: scroll;
 }
 
+// Isaiah css for the shop section
 h1 {
     font-family: $font2;
     color: $color1;
@@ -51,6 +52,7 @@ p {
     padding-left: 6em;
     padding-right: 6em;
 }
+// Isaiah css end
 
 header {
     color: $color2;
@@ -245,37 +247,6 @@ ul {
     transition: 0.6s;
 }
 
-<<<<<<< HEAD
 .row{
     margin-bottom:100px;
-=======
-
-label {
-    text-transform: uppercase;
-}
-
-.form-control {
-    background: $color3;
-    border-radius: 0;
-    border: solid 2px $color1;
-}
-
-// .colebio,.altmanbio,.thecimatics{
-//     justify-content: center;
-//     line-height: 100px;
-//     vertical-align: middle;
-// }
-
-
-.btn {
-    padding: 5px 20px;
-    background: $color3;
-    color: $color2;
-    border: solid 2px $color1;
-    border-radius: 15px;
-}
-
-.row {
-    margin-bottom: 100px;
->>>>>>> master
 }
