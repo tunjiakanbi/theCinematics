@@ -26,13 +26,8 @@ $(document).ready(function () {
         }
     });
 
-    //fix navbar collapse
-    var winWidth = $(window).width();
-    console.log(winWidth);
-    if (winWidth <= 992){
-
-   
-    $('.navbar-nav>li>a').on('click', function () {
+    //fix navcar collapse
+$('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
         $('.animated-icon').toggleClass('open');
         $('#navbar-brand-span').toggleClass('hide');
@@ -43,7 +38,7 @@ $(document).ready(function () {
         $('.collapse').addClass('no-transition').collapse('toggle');
         $('.animated-icon').toggleClass('open');
     });
-}
+
 
     //document.ready ends here
 });
