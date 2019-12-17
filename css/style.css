@@ -37,7 +37,6 @@ header {
 }
 
 #home,
-#about,
 #gallery,
 #movie,
 #shop,
@@ -157,7 +156,55 @@ nav {
   left: 8px;
 }
 
-/************************* styling About section***********************/
+/************************* styling About section starts here*******************************************************/
+#about {
+  padding-top: 66px;
+  width: 100vw;
+  height: 1700px;
+  position: relative;
+}
+
+@media screen and (max-width: 425px) {
+  #about {
+    width: 800px;
+    margin: 0 auto;
+  }
+  #about h1 {
+    text-align: left;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  #about {
+    height: 2500px;
+  }
+  #mybios {
+    width: 700px;
+    margin: 0 auto;
+  }
+  #biocinematics {
+    font-size: 1.5em !important;
+  }
+  .cole, .altman {
+    margin-left: 125px !important;
+  }
+  .colebio, .altmanbio {
+    margin-bottom: 30px;
+  }
+  .colebio h2, .altmanbio h2 {
+    font-size: 3em;
+  }
+  .btn {
+    font-size: 28px !important;
+    width: 100px;
+  }
+  .thecinematics {
+    width: 100% !important;
+    height: 430px !important;
+  }
+}
+
 #about h1 {
   margin-bottom: 50px;
   color: #BFA10A;
@@ -166,45 +213,73 @@ nav {
 .image {
   width: 100%;
   height: auto;
+  border: 2px solid #FCF9E9;
 }
 
-.cinematics {
-  width: 900px;
-  border: 2px solid #FCF9E9;
+.img0 {
   margin: 0 auto;
 }
 
-.c, .a {
-  width: 400px;
-  border: 2px solid #FCF9E9;
-  margin: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  line-height: 100px;
-  vertical-align: middle;
+.img1 {
+  margin: 0 auto;
+}
+
+.cole {
+  padding: 10px;
+}
+
+.cole-lg-6 {
+  text-align: center;
 }
 
 .cole, .altman {
-  width: 320px;
-}
-
-.cole, .altman {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 420px;
   border: 2px solid #BFA10A;
   height: 450px;
+  margin-left: 50px;
 }
 
 .thecinematics {
-  margin-bottom: 180px;
-  width: 920px;
-  height: 540px;
+  width: 960px;
+  height: 550px;
   border: 2px solid #BFA10A;
   margin: 0 auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.thecinematics.show {
+  opacity: 1;
+}
+
+.col-12 p {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.col-12 p.show {
+  opacity: 1;
+}
+
+#mybios {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#mybios.show {
+  opacity: 1;
 }
 
 .cole {
@@ -213,6 +288,7 @@ nav {
 
 .altman {
   height: 425px;
+  padding: 10px;
 }
 
 #about p {
@@ -234,8 +310,7 @@ nav {
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
+  margin: 10px 2px;
   cursor: pointer;
   border-radius: 20px;
 }
@@ -247,11 +322,13 @@ nav {
   transition: 0.6s;
 }
 
+.btn-cole, .btn-altman {
+  display: inline-block;
+}
+
 .row {
   margin-bottom: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 100%;
 }
 
 .modal-body p {
@@ -270,4 +347,6 @@ nav {
   font-family: zingendeB;
   font-size: 1.5em;
 }
+
+/**********************************About section Styling ends here**********************************************/
 /*# sourceMappingURL=style.css.map */

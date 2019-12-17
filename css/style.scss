@@ -45,7 +45,6 @@ header {
 }
 
 #home,
-#about,
 #gallery,
 #movie,
 #shop,
@@ -55,6 +54,7 @@ header {
     height: 100vh;
     position: relative;
 }
+
 
 nav {
     background-color: $color4;
@@ -182,7 +182,26 @@ nav {
     top: 21px;
     left: 8px;
 }
-/************************* styling About section***********************/
+/************************* styling About section starts here*******************************************************/
+#about{
+    padding-top: 66px;
+    width: 100vw;
+    height:1700px;
+    position: relative;
+}
+@media screen and (max-width:425px){
+    #about{width:800px;margin: 0 auto;}
+    #about h1{text-align: left;}
+    .image{width: 100%; height:auto}
+    #about{height:2500px;}
+    #mybios{width: 700px; margin:0 auto;}
+    #biocinematics{ font-size:1.5em !important; }
+    .cole,.altman{margin-left: 125px !important;}
+    .colebio,.altmanbio{ margin-bottom:30px;}
+    .colebio h2, .altmanbio h2{ font-size: 3em;}
+    .btn{font-size:28px !important;width:100px;}
+    .thecinematics{width:100% !important; height: 430px!important;}
+}
 #about h1{
     margin-bottom:50px;
     color: $color2;
@@ -190,48 +209,81 @@ nav {
 .image{
     width:100%;
     height:auto;
-}
-.cinematics{
-    width:900px;
-  
     border: 2px solid $color1;
+    
+}
+.img0{
     margin: 0 auto;
    
 }
-.c,.a{
-    width:400px;
-    border:2px solid $color1;
-    margin: 10px;
-    justify-content: center;
-    line-height: 100px;
-    vertical-align: middle;
+.img1{
+ margin:0 auto;
+
+
 }
-.cole,.altman{
-      width:320px;
+.cole{
+    padding: 10px;
+   
 }
+.cole-lg-6{
+    text-align: center;
+}
+
+
+
 .cole,.altman{ 
+    box-sizing: border-box;
     width: 420px;
     border: 2px solid $color2;
     height: 450px;
+    margin-left: 50px;
+   
     // padding:10px 10px 10px 10px;
 }
 .thecinematics{
     
-    margin-bottom:180px;
-    width:920px;
-    height: 540px;
+    // margin-bottom:180px;
+    width:960px;
+    height: 550px;
     border: 2px solid $color2;
     margin: 0 auto;
     justify-content: center;
     padding-top:10px;
-    
+    padding-right: 10px;
+    padding-left:10px ;
+    padding-bottom:0px;
+    opacity:0;
+    transition: 1s;
 }
+.thecinematics.show{
+    opacity: 1;
+}
+.col-12 p{
+    opacity: 0;
+    transition:0.5s;
+}
+.col-12 p.show{
+    opacity:1;
+}
+#mybios{
+    opacity: 0;
+    transition: 1s;
+}
+#mybios.show{
+    opacity:1;
+}
+
 .cole{
     height:425px;
+    
 }
+
 .altman{
     height:425px;
+    padding: 10px;
+    
 }
+
 #about p{
     font-family: $font1;
     font-size: 1em;
@@ -249,8 +301,8 @@ nav {
     padding: 10px 25px;
     text-align: center;
     text-decoration:none;
-    display: inline-block;
-    margin: 4px 2px;
+ 
+    margin:10px 2px;
     cursor: pointer;
     border-radius:20px;
     // text-align:center;   
@@ -261,11 +313,17 @@ nav {
     color:$color2;
     transition: 0.6s;
 }
+.btn-cole,.btn-altman{
+    display: inline-block;
+}
 
 
 .row{
     margin-bottom:100px;
-    display: flex;
+   
+    width: 100%;
+   
+    
 }
 .modal-body p{
     color:$color3;
@@ -281,10 +339,4 @@ nav {
     font-family: $font2;
     font-size:1.5em;
 }
-// .btn-cole {
-//     text-align: center;
-//     display: inline;
-// }
-// .colebio {
-//     width: 100%;
-// }
+/**********************************About section Styling ends here**********************************************/
