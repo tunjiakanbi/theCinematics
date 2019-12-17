@@ -185,6 +185,7 @@ nav {
   }
   #biocinematics {
     font-size: 1.5em !important;
+    padding-left: 15px;
   }
   .cole, .altman {
     margin-left: 125px !important;
@@ -202,6 +203,7 @@ nav {
   .thecinematics {
     width: 100% !important;
     height: 430px !important;
+    margin-left: 15px !important;
   }
 }
 
