@@ -25,10 +25,23 @@ h1 {
   color: #FCF9E9;
 }
 
+h2 {
+  margin-top: 10px;
+  font-family: zingendeL;
+  color: #BFA10A;
+}
+
+h3 {
+  color: #BFA10A;
+  font-size: 1em;
+}
+
 p {
   color: #FCF9E9;
   font-family: assistant;
-  font-size: 1.5em;
+  font-size: 1em;
+  padding-left: 6em;
+  padding-right: 6em;
 }
 
 header {
@@ -189,72 +202,14 @@ ul {
   left: 8px;
 }
 
-/************************* styling About section***********************/
-#about h1 {
-  margin-bottom: 50px;
-}
-
-.image {
-  width: 100%;
-  height: auto;
-}
-
-.c, .cinematics, .a {
-  width: 400px;
-  border: 2px solid #FCF9E9;
-  margin: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  line-height: 100px;
-  vertical-align: middle;
-}
-
-.cole, .altman {
-  width: 320px;
-}
-
-.thecinematics, .cole, .altman {
-  width: 420px;
-  border: 2px solid #BFA10A;
-  height: 450px;
-}
-
-.thecinematics {
-  height: 250px;
-}
-
-.cole {
-  height: 425px;
-}
-
-.altman {
-  height: 425px;
-}
-
-#about p {
-  font-family: assistant;
-  font-size: 1em;
-}
-
-#about h2 {
-  font-family: zingendeL;
-  text-align: center;
-}
-
-.btn {
-  background-color: transparent;
-  border: 2px solid #FCF9E9;
-  color: #BFA10A;
-  font-family: zingendeL;
-  font-size: 20px;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 20px;
+#form {
+  background-image: url("/prototype assets/gold_clapperboard-copy.svg");
+  background-position: center top;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 18rem;
 }
 
 .btn:hover {
@@ -262,6 +217,24 @@ ul {
   color: #BFA10A;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+.form-control {
+  background: #020126;
+  border-radius: 0;
+  border: solid 2px #FCF9E9;
+}
+
+.btn {
+  padding: 5px 20px;
+  background: #020126;
+  color: #BFA10A;
+  border: solid 2px #FCF9E9;
+  border-radius: 15px;
 }
 
 .row {

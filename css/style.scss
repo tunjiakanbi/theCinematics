@@ -33,10 +33,23 @@ h1 {
     color: $color1;
 }
 
+h2 {
+    margin-top: 10px;
+    font-family: $font3;
+    color: $color2;
+}
+
+h3 {
+    color: $color2;
+    font-size: 1em;
+}
+
 p {
     color: $color1;
     font-family: $font1;
-    font-size: 1.5em;
+    font-size: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
 }
 
 header {
@@ -214,70 +227,55 @@ ul {
     top: 21px;
     left: 8px;
 }
-/************************* styling About section***********************/
-#about h1{
-    margin-bottom:50px;
-}
-.image{
-    width:100%;
-    height:auto;
-}
-.c,.cinematics,.a{
-    width:400px;
-    border:2px solid $color1;
-    margin: 10px;
-    justify-content: center;
-    line-height: 100px;
-    vertical-align: middle;
-}
-.cole,.altman{
-      width:320px;
-}
-.thecinematics,.cole,.altman{ 
-    width: 420px;
-    border: 2px solid $color2;
-    height: 450px;
-    // padding:10px 10px 10px 10px;
-}
-.thecinematics{
-    height:250px;
-}
-.cole{
-    height:425px;
-}
-.altman{
-    height:425px;
-}
-#about p{
-    font-family: $font1;
-    font-size: 1em;
-}
-#about h2{
-    font-family: $font3;
-    text-align: center;
-}
-.btn{
-    background-color:transparent;
-    border:2px solid $color1;
-    color:$color2;
-    font-family: $font3;
-    font-size: 20px;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius:20px;
-    // text-align:center;   
 
+
+#form {
+    background-image: url("/prototype assets/gold_clapperboard-copy.svg");
+    background-position: center top;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 18rem;
 }
+
 .btn:hover {
     background-color: $color4;
-    color:$color2;
+    color: $color2;
     transition: 0.6s;
 }
 
+<<<<<<< HEAD
 .row{
     margin-bottom:100px;
+=======
+
+label {
+    text-transform: uppercase;
+}
+
+.form-control {
+    background: $color3;
+    border-radius: 0;
+    border: solid 2px $color1;
+}
+
+// .colebio,.altmanbio,.thecimatics{
+//     justify-content: center;
+//     line-height: 100px;
+//     vertical-align: middle;
+// }
+
+
+.btn {
+    padding: 5px 20px;
+    background: $color3;
+    color: $color2;
+    border: solid 2px $color1;
+    border-radius: 15px;
+}
+
+.row {
+    margin-bottom: 100px;
+>>>>>>> master
 }

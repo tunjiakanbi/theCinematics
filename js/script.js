@@ -27,6 +27,7 @@ $(document).ready(function () {
     });
 
     //fix navcar collapse
+<<<<<<< HEAD
     $('.navbar-toggler').on('click', function () {
         $('.navbar-collapse').collapse('hide');
          $('.animated-icon').toggleClass('open');
@@ -36,5 +37,20 @@ $('.navbar-toggler').on('click', function(){
     $('.collapse').addClass('no-transition').collapse('toggle');
     $('.animated-icon').toggleClass('open');
 });
+=======
+$('.navbar-nav>li>a').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
+        $('.animated-icon').toggleClass('open');
+        $('#navbar-brand-span').toggleClass('hide');
+    });
+
+    $('.navbar-toggler').on('click', function () {
+        $('#navbar-brand-span').toggleClass('hide');
+        $('.collapse').addClass('no-transition').collapse('toggle');
+        $('.animated-icon').toggleClass('open');
+    });
+
+
+>>>>>>> master
     //document.ready ends here
 });
