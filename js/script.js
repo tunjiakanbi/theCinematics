@@ -44,5 +44,30 @@ $(document).ready(function () {
         $('#navbar-brand-span').removeClass('hide');
         $('.navbar-collapse').collapse('hide');
     })
+
+     //*************************about section animation starts here*********************////////
+ var controller= new ScrollMagic.Controller();
+ var scene= new ScrollMagic.Scene({
+   triggerElement:'.thecinematics'
+ })
+ .setClassToggle('.thecinematics','show')
+ .addTo(controller)
+
+
+var controller1= new ScrollMagic.Controller();
+ var scene1= new ScrollMagic.Scene({
+   triggerElement:'.col-12 p'
+ })
+ .setClassToggle('.col-12 p','show')
+ .addTo(controller1)
+
+ var controller2= new ScrollMagic.Controller();
+ var scene2= new ScrollMagic.Scene({
+   triggerElement:'#mybios'
+ })
+ .setClassToggle('#mybios','show')
+ .addTo(controller2)
+
+//***********************About section animation ends here*************************** */
     //document.ready ends here
 });
