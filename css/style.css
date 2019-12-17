@@ -25,10 +25,23 @@ h1 {
   color: #FCF9E9;
 }
 
+h2 {
+  margin-top: 10px;
+  font-family: zingendeL;
+  color: #BFA10A;
+}
+
+h3 {
+  color: #BFA10A;
+  font-size: 1em;
+}
+
 p {
   color: #FCF9E9;
   font-family: assistant;
-  font-size: 1.5em;
+  font-size: 1em;
+  padding-left: 6em;
+  padding-right: 6em;
 }
 
 header {
