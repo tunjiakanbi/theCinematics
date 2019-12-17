@@ -228,5 +228,27 @@ label {
   margin-bottom: 100px;
 }
 
-/* footer style */
+a:link {
+  color: #BFA10A;
+}
+
+a:visited {
+  color: #BFA10A;
+}
+
+a:hover {
+  color: #FCF9E9;
+}
+
+.site {
+  font-family: assistant;
+  color: #BFA10A;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h5.map {
+  font-family: assistant;
+  color: #BFA10A;
+}
 /*# sourceMappingURL=style.css.map */

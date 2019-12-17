@@ -264,3 +264,26 @@ label {
 
 // footer style 
 
+a:link {
+    color: $color2;
+}
+
+a:visited {
+    color: $color2;
+}
+
+a:hover {
+    color: $color1;
+}
+
+.site {
+    font-family: $font1;
+    color: $color2;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h5.map {
+    font-family: $font1;
+    color: $color2;
+}
