@@ -207,6 +207,49 @@ nav {
   }
 }
 
+@media screen and (max-width: 768px) {
+  #about {
+    width: 800px;
+    margin: 0 auto;
+  }
+  #about h1 {
+    text-align: left;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  #about {
+    height: 2500px;
+  }
+  #mybios {
+    width: 700px;
+    margin: 0 auto;
+  }
+  #biocinematics {
+    font-size: 1.5em !important;
+    padding-left: 15px;
+  }
+  .cole, .altman {
+    margin-left: 125px !important;
+  }
+  .colebio, .altmanbio {
+    margin-bottom: 30px;
+  }
+  .colebio h2, .altmanbio h2 {
+    font-size: 3em;
+  }
+  .btn {
+    font-size: 28px !important;
+    width: 100px;
+  }
+  .thecinematics {
+    width: 100% !important;
+    height: 385px !important;
+    margin-left: 15px !important;
+  }
+}
+
 #about h1 {
   margin-bottom: 50px;
   color: #BFA10A;
