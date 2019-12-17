@@ -183,37 +183,162 @@ nav {
     left: 8px;
 }
 
-// #form {
-//     background-image: url("/prototype assets/gold_clapperboard-copy.svg");
-//     background-position: center top;
-//     min-height: 700px;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     position: relative;
-//     padding-top: 18rem;
-// }
+/************************* styling About section starts here*******************************************************/
+#about{
+    padding-top: 66px;
+    width: 100vw;
+    height:1700px;
+    position: relative;
+}
+@media screen and (max-width:425px){
+    #about{width:800px;margin: 0 auto;}
+    #about h1{text-align: left;}
+    .image{width: 100%; height:auto}
+    #about{height:2500px;}
+    #mybios{width: 700px; margin:0 auto;}
+    #biocinematics{ font-size:1.5em !important; }
+    .cole,.altman{margin-left: 125px !important;}
+    .colebio,.altmanbio{ margin-bottom:30px;}
+    .colebio h2, .altmanbio h2{ font-size: 3em;}
+    .btn{font-size:28px !important;width:100px;}
+    .thecinematics{width:100% !important; height: 430px!important;}
+}
+#about h1{
+    margin-bottom:50px;
+    color: $color2;
+}
+.image{
+    width:100%;
+    height:auto;
+    border: 2px solid $color1;
+    
+}
+.img0{
+    margin: 0 auto;
+   
+}
+.img1{
+ margin:0 auto;
 
-label {
+
+}
+.cole{
+    padding: 10px;
+   
+}
+.cole-lg-6{
+    text-align: center;
+}
+
+
+
+.cole,.altman{ 
+    box-sizing: border-box;
+    width: 420px;
+    border: 2px solid $color2;
+    height: 450px;
+    margin-left: 50px;
+   
+    // padding:10px 10px 10px 10px;
+}
+.thecinematics{
+    
+    // margin-bottom:180px;
+    width:960px;
+    height: 550px;
+    border: 2px solid $color2;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top:10px;
+    padding-right: 10px;
+    padding-left:10px ;
+    padding-bottom:0px;
+    opacity:0;
+    transition: 1s;
+}
+.thecinematics.show{
+    opacity: 1;
+}
+.col-12 p{
+    opacity: 0;
+    transition:0.5s;
+}
+.col-12 p.show{
+    opacity:1;
+}
+#mybios{
+    opacity: 0;
+    transition: 1s;
+}
+#mybios.show{
+    opacity:1;
+}
+
+.cole{
+    height:425px;
+    
+}
+
+.altman{
+    height:425px;
+    padding: 10px;
+    
+}
+
+#about p{
+    font-family: $font1;
+    font-size: 1em;
+}
+#about h2{
+    font-family: $font3;
+    text-align: center;
+}
+.btn{
+    background-color:transparent;
+    border:2px solid $color1;
+    color:$color2;
+    font-family: $font3;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration:none;
+ 
+    margin:10px 2px;
+    cursor: pointer;
+    border-radius:20px;
+    // text-align:center;   
+
+}
+.btn:hover{
+    background-color: $color4;
+    color:$color2;
+    transition: 0.6s;
+}
+.btn-cole,.btn-altman{
+    display: inline-block;
+}
+
+
+.row{
+    margin-bottom:100px;
+   
+    width: 100%;
+   
+    
+}
+.modal-body p{
+    color:$color3;
+    font-family: $font1;
+}
+.bio{
+    background-color: $color3;
+    font-size: 1em;
+}
+.modal-header h5{
+    color: $color3;
     text-transform: uppercase;
+    font-family: $font2;
+    font-size:1.5em;
 }
+/**********************************About section Styling ends here**********************************************/
 
-.form-control {
-    background: $color3;
-    border-radius: 0;
-    border: solid 2px $color1;
-}
-
-// .colebio,.altmanbio,.thecimatics{
-//     justify-content: center;
-//     line-height: 100px;
-//     vertical-align: middle;
-// }
-
-
-// .btn {
-//     padding: 5px 20px;
-//     background: $color3;
-//     color: $color2;
-//     border: solid 2px $color1;
-//     border-radius: 15px;
-// }
