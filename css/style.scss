@@ -294,6 +294,8 @@ a:hover {
     list-style-type: none;
     text-align: center;
     font-size: 16px;
+    padding: 10px;
+    text-align: center;
 }
 
 h5.map {
@@ -301,4 +303,8 @@ h5.map {
     color: $color1;
     font-size: 18px;
     text-align: center;
+}
+
+.foot-link {
+    padding: 35px;
 }
