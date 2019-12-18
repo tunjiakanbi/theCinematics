@@ -228,6 +228,11 @@ label {
   margin-bottom: 100px;
 }
 
+.page-footer {
+  border-top: 2px solid #BFA10A;
+  padding-top: 75px;
+}
+
 a:link {
   color: #BFA10A;
 }
@@ -245,10 +250,14 @@ a:hover {
   color: #BFA10A;
   text-decoration: none;
   list-style-type: none;
+  text-align: center;
+  font-size: 16px;
 }
 
 h5.map {
   font-family: assistant;
-  color: #BFA10A;
+  color: #FCF9E9;
+  font-size: 18px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
