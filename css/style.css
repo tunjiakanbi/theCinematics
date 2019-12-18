@@ -253,6 +253,7 @@ a:hover {
   text-align: center;
   font-size: 16px;
   padding: 10px;
+  margin-left: 10px;
   text-align: center;
 }
 
@@ -261,9 +262,18 @@ h5.map {
   color: #FCF9E9;
   font-size: 18px;
   text-align: center;
+  padding-bottom: 15px;
+}
+
+h5.social {
+  font-family: assistant;
+  color: #FCF9E9;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .foot-link {
-  padding: 35px;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */

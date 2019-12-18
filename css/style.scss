@@ -265,14 +265,14 @@ label {
 // footer style 
 
 .page-footer {
-   border-top: 2px solid $color2;
-   padding-top: 75px;
+    border-top: 2px solid $color2;
+    padding-top: 75px;
 }
 
 
 // .col-1 {
 //     margin-left: 350px;
-  
+
 // }
 
 a:link {
@@ -295,6 +295,7 @@ a:hover {
     text-align: center;
     font-size: 16px;
     padding: 10px;
+    margin-left: 10px;
     text-align: center;
 }
 
@@ -303,8 +304,18 @@ h5.map {
     color: $color1;
     font-size: 18px;
     text-align: center;
+    padding-bottom: 15px;
 }
 
+h5.social {
+    font-family: $font1;
+    color: $color1;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
 .foot-link {
-    padding: 35px;
+    padding-bottom: 20px;
 }
