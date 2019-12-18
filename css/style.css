@@ -36,12 +36,7 @@ header {
   font-family: zingendeL;
 }
 
-#home,
-#about,
-#gallery,
-#movie,
-#shop,
-#contact {
+#home, #about, #gallery, #movie, #shop, #contact {
   padding-top: 66px;
   width: 100vw;
   height: 100vh;
@@ -162,7 +157,16 @@ nav {
   padding-top: 66px;
   width: 100vw;
   height: 240vh;
-  position: relative;
+}
+
+#about h1 {
+  color: #BFA10A;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border: 2px solid #FCF9E9;
 }
 
 /**********************************About section Styling ends here**********************************************/
