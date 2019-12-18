@@ -302,7 +302,7 @@ a:hover {
 h5.map {
     font-family: $font1;
     color: $color1;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding-bottom: 15px;
 }
@@ -310,12 +310,17 @@ h5.map {
 h5.social {
     font-family: $font1;
     color: $color1;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 45px;
 }
 
 
 .foot-link {
     padding-bottom: 20px;
+}
+
+#end {
+    font-family: $font1;
+    color: $color2;
 }

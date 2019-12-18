@@ -260,7 +260,7 @@ a:hover {
 h5.map {
   font-family: assistant;
   color: #FCF9E9;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   padding-bottom: 15px;
 }
@@ -268,12 +268,17 @@ h5.map {
 h5.social {
   font-family: assistant;
   color: #FCF9E9;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
 }
 
 .foot-link {
   padding-bottom: 20px;
+}
+
+#end {
+  font-family: assistant;
+  color: #BFA10A;
 }
 /*# sourceMappingURL=style.css.map */
