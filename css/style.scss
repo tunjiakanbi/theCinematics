@@ -23,6 +23,7 @@ body {
     color: #fff;
     position: relative;
     overflow: scroll;
+    -webkit-text-stroke: 0.35px;
 }
 h1 {
     font-family: $font2;
