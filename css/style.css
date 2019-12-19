@@ -84,4 +84,10 @@ nav {
   -webkit-transition: none !important;
   transition: none !important;
 }
+
+video {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */

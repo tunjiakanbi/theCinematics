@@ -90,3 +90,10 @@ nav {
 .no-transition {
     transition: none !important;
 }
+
+video {
+    width: 1140px;
+    // width: 100vw;
+    height: auto;
+    margin: 0 auto;
+}
