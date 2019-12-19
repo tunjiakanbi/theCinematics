@@ -27,6 +27,7 @@ $(document).ready(function () {
     });
 
     //fix navbar collapse
+
     var winWidth = $(window).width();
     console.log(winWidth);
     if (winWidth <= 992){
