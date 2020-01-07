@@ -37,10 +37,17 @@ header {
   font-family: zingendeL;
 }
 
-#home, #about, #gallery, #movie, #shop, #contact {
+#home, #gallery, #movie, #shop, #contact {
   padding-top: 66px;
   width: 100vw;
   height: 100vh;
+  position: relative;
+}
+
+#about {
+  padding-top: 66px;
+  width: 100vw;
+  height: 100%;
   position: relative;
 }
 
@@ -56,12 +63,6 @@ nav {
 .navbar-nav {
   position: absolute;
   z-index: 1199;
-}
-
-@media screen and (min-width: 993px) {
-  #triangle-right {
-    display: none;
-  }
 }
 
 #triangle-right {
@@ -154,13 +155,6 @@ nav {
 }
 
 /************************* styling About section starts here*******************************************************/
-#about {
-  padding-top: 66px;
-  width: 100vw;
-  height: 1700px;
-  position: relative;
-}
-
 #about h1 {
   color: #BFA10A;
 }
@@ -172,4 +166,9 @@ nav {
 }
 
 /**********************************About section Styling ends here**********************************************/
+@media screen and (min-width: 992px) {
+  #triangle-right {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

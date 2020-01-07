@@ -39,10 +39,17 @@ header {
     color: $color2;
     font-family: $font3;
 }
-#home, #about, #gallery, #movie, #shop, #contact {
+#home, #gallery, #movie, #shop, #contact {
     padding-top: 66px;
     width: 100vw;
     height: 100vh;
+    position: relative;
+}
+ #about {
+    padding-top: 66px;
+    width: 100vw;
+    // height: 300vh;
+    height: 100%;
     position: relative;
 }
 nav {
@@ -58,11 +65,7 @@ nav {
     position: absolute;
     z-index: 1199;
 }
-@media screen and (min-width: 993px) {
-    #triangle-right {
-        display: none;
-    }
-}
+
 #triangle-right {
     position: relative;
     top: -30px;
@@ -160,13 +163,7 @@ nav {
     left: 8px;
 }
 /************************* styling About section starts here*******************************************************/
-#about {
-    padding-top: 66px;
-    width: 100vw;
-    // height: 240vh;
-    height:1700px;
-    position: relative;
-}
+
 #about h1 {
     color: $color2;
 }
@@ -176,3 +173,8 @@ nav {
     border: 2px solid $color1; 
 }
 /**********************************About section Styling ends here**********************************************/
+@media screen and (min-width: 992px) {
+    #triangle-right {
+        display: none;
+    }
+}
