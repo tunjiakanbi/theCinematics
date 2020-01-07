@@ -157,7 +157,8 @@ nav {
 #about {
   padding-top: 66px;
   width: 100vw;
-  height: 240vh;
+  height: 1700px;
+  position: relative;
 }
 
 #about h1 {
