@@ -165,12 +165,100 @@ nav {
 /************************* styling About section starts here*******************************************************/
 
 #about h1 {
+    margin-bottom:50px;
     color: $color2;
 }
 .image{
     width:100%;
     height:auto;
     border: 2px solid $color1; 
+}
+
+.cole,.altman{ 
+    padding: 10px;  
+    box-sizing: border-box;
+    border: 2px solid $color2;
+}
+.thecinematics{  
+    // margin-bottom:180px;
+    // width:960px;
+    // height: 550px;
+    border: 2px solid $color2;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px;
+    // padding-top:10px;
+    // padding-right: 10px;
+    // padding-left:10px ;
+    // padding-bottom:0px;
+    //must change opacity back afater javascript added
+    opacity:0;
+    transition: 1s;
+}
+.thecinematics.show{
+    opacity: 1;
+}
+.col-12 p{
+    opacity: 0;
+    transition:0.5s;
+}
+.col-12 p.show{
+    opacity:1;
+}
+#mybios{
+    opacity: 0;
+    transition: 1s;
+}
+#mybios.show{
+    opacity:1;
+}
+#about p{
+    font-family: $font1;
+    font-size: 1em;
+}
+#about h2{
+    font-family: $font3;
+    text-align: center;
+}
+.btn{
+    background-color:transparent;
+    border:2px solid $color1;
+    color:$color2;
+    font-family: $font3;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration:none;
+    margin:10px 2px;
+    cursor: pointer;
+    border-radius:20px;
+    // text-align:center;   
+}
+.btn:hover{
+    background-color: $color4;
+    color:$color2;
+    transition: 0.6s;
+}
+.btn-cole,.btn-altman{
+    display: inline-block;
+}
+.modal-body p{
+    color:$color3;
+    font-family: $font1;
+}
+.bio{
+    background-color: $color3;
+    font-size: 1em;
+}
+.bio p {
+    color: $color1;
+    font-size: 1em;
+}
+.modal-header h5{
+    color: $color3;
+    text-transform: uppercase;
+    font-family: $font2;
+    font-size:1.5em;
 }
 /**********************************About section Styling ends here**********************************************/
 @media screen and (min-width: 992px) {
