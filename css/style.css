@@ -19,6 +19,8 @@ body {
   position: relative;
   overflow: scroll;
   -webkit-text-stroke: 0.35px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -53,6 +55,10 @@ header {
 
 nav {
   background-color: #3e3f59;
+}
+
+#navbar-brand-span:hover {
+  color: #BFA10A;
 }
 
 .navbar-toggler {

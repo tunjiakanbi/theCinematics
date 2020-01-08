@@ -24,6 +24,8 @@ body {
     position: relative;
     overflow: scroll;
     -webkit-text-stroke: 0.35px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 h1 {
     font-family: $font2;
@@ -56,7 +58,9 @@ nav {
     background-color: $color4;
     // height: 88px;
 }
-
+#navbar-brand-span:hover {
+    color: $color2;
+}
 .navbar-toggler {
     position: relative;
     display: inline-block;
