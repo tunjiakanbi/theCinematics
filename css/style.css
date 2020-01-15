@@ -55,10 +55,19 @@ header {
 
 nav {
   background-color: #3e3f59;
+  border-bottom: 2px solid #BFA10A;
+}
+
+#navbar-brand-span {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bolder;
+  color: #BFA10A;
+  letter-spacing: 0.15em;
 }
 
 #navbar-brand-span:hover {
-  color: #BFA10A;
+  color: #FCF9E9;
 }
 
 .navbar-toggler {

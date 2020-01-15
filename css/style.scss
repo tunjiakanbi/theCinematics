@@ -56,10 +56,19 @@ header {
 }
 nav {
     background-color: $color4;
+    border-bottom: 2px solid $color2;
+    // text-align: center;
     // height: 88px;
 }
-#navbar-brand-span:hover {
+#navbar-brand-span {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bolder;
     color: $color2;
+    letter-spacing: 0.15em;
+}
+#navbar-brand-span:hover {
+    color: $color1;
 }
 .navbar-toggler {
     position: relative;
