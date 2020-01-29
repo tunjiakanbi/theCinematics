@@ -44,7 +44,7 @@ $(document).ready(function () {
         $('.collapse').addClass('no-transition').collapse('toggle');
         $('.animated-icon').toggleClass('open');
     });
-}
 
+    }
     //document.ready ends here
 });
