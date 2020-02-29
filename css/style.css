@@ -42,6 +42,7 @@ header {
 #movie,
 #shop,
 #contact {
+  margin-left: 30px;
   padding-top: 66px;
   width: 100vw;
   height: 100vh;
@@ -51,6 +52,7 @@ header {
 nav {
   background-color: #3e3f59;
   border-bottom: 2px solid #BFA10A;
+  text-align: center;
 }
 
 .navbar-toggler {
@@ -63,22 +65,51 @@ nav {
   z-index: 1199;
 }
 
+.navbar-brand {
+  margin-top: 10px;
+}
+
+.navbar-brand span {
+  color: #BFA10A;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bolder;
+}
+
+#navbar-brand-span-top {
+  color: #BFA10A;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bolder;
+}
+
+ul {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
 @media screen and (min-width: 993px) {
   #triangle-right {
     display: none;
   }
 }
 
+@media screen and (max-width: 993px) {
+  ul.navbar-nav {
+    margin-top: 40px;
+  }
+}
+
 #triangle-right {
   position: relative;
-  top: -30px;
+  top: 0px;
   left: -30px;
   margin-right: 30px;
   width: 0;
   height: 0;
-  border-top: 150px solid transparent;
-  border-left: 300px solid #BFA10A;
-  border-bottom: 150px solid transparent;
+  border-top: 175px solid transparent;
+  border-left: 450px solid #BFA10A;
+  border-bottom: 175px solid transparent;
   z-index: 1198;
 }
 
@@ -158,72 +189,14 @@ nav {
   left: 8px;
 }
 
-/************************* styling About section***********************/
-#about h1 {
-  margin-bottom: 50px;
-}
-
-.image {
-  width: 100%;
-  height: auto;
-}
-
-.c, .cinematics, .a {
-  width: 400px;
-  border: 2px solid #FCF9E9;
-  margin: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  line-height: 100px;
-  vertical-align: middle;
-}
-
-.cole, .altman {
-  width: 320px;
-}
-
-.thecinematics, .cole, .altman {
-  width: 420px;
-  border: 2px solid #BFA10A;
-  height: 450px;
-}
-
-.thecinematics {
-  height: 250px;
-}
-
-.cole {
-  height: 425px;
-}
-
-.altman {
-  height: 425px;
-}
-
-#about p {
-  font-family: assistant;
-  font-size: 1em;
-}
-
-#about h2 {
-  font-family: zingendeL;
-  text-align: center;
-}
-
-.btn {
-  background-color: transparent;
-  border: 2px solid #FCF9E9;
-  color: #BFA10A;
-  font-family: zingendeL;
-  font-size: 20px;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 20px;
+#form {
+  background-image: url("/prototype assets/gold_clapperboard-copy.svg");
+  background-position: center top;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 18rem;
 }
 
 .btn:hover {
@@ -233,31 +206,79 @@ nav {
   transition: 0.6s;
 }
 
+label {
+  text-transform: uppercase;
+}
+
+.form-control {
+  background: #020126;
+  border-radius: 0;
+  border: solid 2px #FCF9E9;
+}
+
+.btn {
+  padding: 5px 20px;
+  background: #020126;
+  color: #BFA10A;
+  border: solid 2px #FCF9E9;
+  border-radius: 15px;
+}
+
 .row {
   margin-bottom: 100px;
 }
 
-.navbar-brand span {
+.page-footer {
+  border-top: 2px solid #BFA10A;
+  padding-top: 75px;
+}
+
+a:link {
   color: #BFA10A;
-  font-size: 24px;
-}
-<<<<<<< HEAD
-=======
-
-/* GALLERY */
-/* div.carousel-item img {
-  object-fit: scale-down;
-} */
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BFA10A' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-  width: 30px;
-  height: 48px;
 }
 
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BFA10A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  width: 30px;
-  height: 48px;
+a:visited {
+  color: #BFA10A;
 }
->>>>>>> 63d738e43f83b7da31b86d3252a60baf9366dd1a
+
+a:hover {
+  color: #FCF9E9;
+}
+
+.site {
+  font-family: assistant;
+  color: #BFA10A;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+h5.map {
+  font-family: assistant;
+  color: #FCF9E9;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h5.social {
+  font-family: assistant;
+  color: #FCF9E9;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.foot-link {
+  padding-bottom: 20px;
+}
+
+#end {
+  font-family: assistant;
+  color: #BFA10A;
+}
 /*# sourceMappingURL=style.css.map */
