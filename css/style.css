@@ -289,4 +289,58 @@ nav {
     display: none;
   }
 }
+
+.page-footer {
+  border-top: 2px solid #BFA10A;
+  padding-top: 75px;
+}
+
+a:link {
+  color: #BFA10A;
+}
+
+a:visited {
+  color: #BFA10A;
+}
+
+a:hover {
+  color: #FCF9E9;
+}
+
+.site {
+  font-family: assistant;
+  color: #BFA10A;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+h5.map {
+  font-family: assistant;
+  color: #FCF9E9;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h5.social {
+  font-family: assistant;
+  color: #FCF9E9;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.foot-link {
+  padding-bottom: 20px;
+}
+
+#end {
+  font-family: assistant;
+  color: #BFA10A;
+}
 /*# sourceMappingURL=style.css.map */

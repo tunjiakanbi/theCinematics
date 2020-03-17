@@ -283,3 +283,68 @@ nav {
         display: none;
     }
 }
+
+// mary's footer style code begins here
+
+.page-footer {
+    border-top: 2px solid $color2;
+    padding-top: 75px;
+}
+
+
+// .col-1 {
+//     margin-left: 350px;
+
+// }
+
+a:link {
+    color: $color2;
+}
+
+a:visited {
+    color: $color2;
+}
+
+a:hover {
+    color: $color1;
+}
+
+.site {
+    font-family: $font1;
+    color: $color2;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+h5.map {
+    font-family: $font1;
+    color: $color1;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h5.social {
+    font-family: $font1;
+    color: $color1;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+
+.foot-link {
+    padding-bottom: 20px;
+}
+
+#end {
+    font-family: $font1;
+    color: $color2;
+}
+
+// mary's footer style code ends here
