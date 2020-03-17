@@ -31,10 +31,12 @@ $(document).ready(function () {
         $('.navbar-collapse').collapse('hide');
          $('.animated-icon').toggleClass('open');
          $('#navbar-brand-span').toggleClass('hide');
+         $('#navbar-brand-span-top').toggleClass('hide');
     });
  
 $('.navbar-toggler').on('click', function(){
     $('#navbar-brand-span').toggleClass('hide');
+    $('#navbar-brand-span-top').toggleClass('hide');
     $('.collapse').addClass('no-transition').collapse('toggle');
     $('.animated-icon').toggleClass('open');
 });

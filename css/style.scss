@@ -50,6 +50,7 @@ header {
 #movie,
 #shop,
 #contact {
+    margin-left: 30px;
     padding-top: 66px;
     width: 100vw;
     height: 100vh;
@@ -60,6 +61,7 @@ nav {
     background-color: $color4;
     // height: 88px;
     border-bottom: 2px solid $color2;
+    text-align: center;
 }
 
 .navbar-toggler {
@@ -72,22 +74,51 @@ nav {
     z-index: 1199;
 }
 
+.navbar-brand {
+    margin-top: 10px;
+}
+
+.navbar-brand span {
+    color: $color2;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bolder;
+}
+
+#navbar-brand-span-top {
+    color: $color2;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bolder;
+}
+
+ul {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
 @media screen and (min-width: 993px) {
     #triangle-right {
         display: none;
     }
 }
 
+@media screen and (max-width: 993px) {
+    ul.navbar-nav {
+        margin-top: 40px;
+    }
+}
+
 #triangle-right {
     position: relative;
-    top: -30px;
+    top: 0px;
     left: -30px;
     margin-right: 30px;
     width: 0;
     height: 0;
-    border-top: 150px solid transparent;
-    border-left: 300px solid $color2;
-    border-bottom: 150px solid transparent;
+    border-top: 175px solid transparent;
+    border-left: 450px solid $color2;
+    border-bottom: 175px solid transparent;
     z-index: 1198;
 }
 
@@ -183,75 +214,115 @@ nav {
     top: 21px;
     left: 8px;
 }
-/************************* styling About section***********************/
-#about h1{
-    margin-bottom:50px;
-}
-.image{
-    width:100%;
-    height:auto;
-}
-.c,.cinematics,.a{
-    width:400px;
-    border:2px solid $color1;
-    margin: 10px;
-    justify-content: center;
-    line-height: 100px;
-    vertical-align: middle;
-}
-.cole,.altman{
-      width:320px;
-}
-.thecinematics,.cole,.altman{ 
-    width: 420px;
-    border: 2px solid $color2;
-    height: 450px;
-    // padding:10px 10px 10px 10px;
-}
-.thecinematics{
-    height:250px;
-}
-.cole{
-    height:425px;
-}
-.altman{
-    height:425px;
-}
-#about p{
-    font-family: $font1;
-    font-size: 1em;
-}
-#about h2{
-    font-family: $font3;
-    text-align: center;
-}
-.btn{
-    background-color:transparent;
-    border:2px solid $color1;
-    color:$color2;
-    font-family: $font3;
-    font-size: 20px;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius:20px;
-    // text-align:center;   
 
+
+#form {
+    background-image: url("/prototype assets/gold_clapperboard-copy.svg");
+    background-position: center top;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 18rem;
 }
+
 .btn:hover {
     background-color: $color4;
-    color:$color2;
+    color: $color2;
     transition: 0.6s;
 }
 
-.row{
-    margin-bottom:100px;
+
+label {
+    text-transform: uppercase;
 }
 
-.navbar-brand span {
-    color: $color2;
-    font-size: 24px;
+.form-control {
+    background: $color3;
+    border-radius: 0;
+    border: solid 2px $color1;
 }
+
+// .colebio,.altmanbio,.thecimatics{
+//     justify-content: center;
+//     line-height: 100px;
+//     vertical-align: middle;
+// }
+
+
+.btn {
+    padding: 5px 20px;
+    background: $color3;
+    color: $color2;
+    border: solid 2px $color1;
+    border-radius: 15px;
+}
+
+.row {
+    margin-bottom: 100px;
+}
+
+// mary's footer style code begins here
+
+.page-footer {
+    border-top: 2px solid $color2;
+    padding-top: 75px;
+}
+
+
+// .col-1 {
+//     margin-left: 350px;
+
+// }
+
+a:link {
+    color: $color2;
+}
+
+a:visited {
+    color: $color2;
+}
+
+a:hover {
+    color: $color1;
+}
+
+.site {
+    font-family: $font1;
+    color: $color2;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+h5.map {
+    font-family: $font1;
+    color: $color1;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h5.social {
+    font-family: $font1;
+    color: $color1;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+
+.foot-link {
+    padding-bottom: 20px;
+}
+
+#end {
+    font-family: $font1;
+    color: $color2;
+}
+
+// mary's footer style code ends here
