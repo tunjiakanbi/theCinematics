@@ -290,6 +290,33 @@ nav {
   }
 }
 
+#form {
+  background-image: url("/prototype assets/gold_clapperboard-edit.svg");
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  padding-top: 18rem;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+.form-control {
+  background: #020126;
+  border-radius: 0;
+  border: solid 2px #FCF9E9;
+}
+
+.btN {
+  padding: 5px 20px;
+  background: #020126;
+  color: #BFA10A;
+  border: solid 2px #FCF9E9;
+  border-radius: 15px;
+}
+
 .page-footer {
   border-top: 2px solid #BFA10A;
   padding-top: 75px;

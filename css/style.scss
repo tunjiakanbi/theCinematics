@@ -283,7 +283,32 @@ nav {
         display: none;
     }
 }
-
+//from kyles
+#form {
+   // #contact {
+    background-image: url("/prototype assets/gold_clapperboard-edit.svg");
+    //background-position: center top;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-top: 18rem;
+}
+label {
+    text-transform: uppercase;
+}
+.form-control {
+    background: $color3;
+    border-radius: 0;
+    border: solid 2px $color1;
+}
+.btN {
+    padding: 5px 20px;
+    background: $color3;
+    color: $color2;
+    border: solid 2px $color1;
+    border-radius: 15px;
+}
 // mary's footer style code begins here
 
 .page-footer {
