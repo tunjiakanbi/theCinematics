@@ -288,15 +288,11 @@ nav {
   #triangle-right {
     display: none;
   }
-}
-
-#form {
-  background-image: url("/prototype assets/gold_clapperboard-edit.svg");
-  min-height: 700px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  padding-top: 18rem;
+  #contact {
+    background-image: url("/prototype assets/gold_clapperboard-edit-Large.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 label {

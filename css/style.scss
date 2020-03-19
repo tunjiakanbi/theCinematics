@@ -282,18 +282,29 @@ nav {
     #triangle-right {
         display: none;
     }
+   // #formz {
+         #contact {
+         background-image: url("/prototype assets/gold_clapperboard-edit-Large.svg");
+         //background-position: center top;
+         //min-height: 700px;
+         background-repeat: no-repeat;
+         background-size: contain;
+         //position: relative;
+         //padding-top: 18rem;
+     }
 }
+
 //from kyles
-#form {
+//#formz {
    // #contact {
-    background-image: url("/prototype assets/gold_clapperboard-edit.svg");
+    //background-image: url("/prototype assets/gold_clapperboard-edit.svg");
     //background-position: center top;
-    min-height: 700px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    padding-top: 18rem;
-}
+    //min-height: 700px;
+    //background-repeat: no-repeat;
+    //background-size: contain;
+    //position: relative;
+   // padding-top: 18rem;
+//}
 label {
     text-transform: uppercase;
 }
