@@ -25,21 +25,25 @@ body {
 
 h1 {
   font-family: zingendeB;
-  color: #FCF9E9;
+  color: #fcf9e9;
 }
 
 p {
-  color: #FCF9E9;
+  color: #fcf9e9;
   font-family: assistant;
   font-size: 1.5em;
 }
 
 header {
-  color: #BFA10A;
+  color: #bfa10a;
   font-family: zingendeL;
 }
 
-#home, #gallery, #movie, #shop, #contact {
+#home,
+#gallery,
+#movie,
+#shop,
+#contact {
   padding-top: 66px;
   width: 100vw;
   height: 100vh;
@@ -55,19 +59,19 @@ header {
 
 nav {
   background-color: #3e3f59;
-  border-bottom: 2px solid #BFA10A;
+  border-bottom: 2px solid #bfa10a;
 }
 
 #navbar-brand-span {
   font-size: 36px;
   line-height: 36px;
   font-weight: bolder;
-  color: #BFA10A;
+  color: #bfa10a;
   letter-spacing: 0.15em;
 }
 
 #navbar-brand-span:hover {
-  color: #FCF9E9;
+  color: #fcf9e9;
 }
 
 .navbar-toggler {
@@ -88,7 +92,7 @@ nav {
   width: 0;
   height: 0;
   border-top: 150px solid transparent;
-  border-left: 300px solid #BFA10A;
+  border-left: 300px solid #bfa10a;
   border-bottom: 150px solid transparent;
   z-index: 1198;
 }
@@ -113,8 +117,8 @@ nav {
   margin: 0px;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 
@@ -128,8 +132,8 @@ nav {
   left: 0;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .animated-icon span:nth-child(1) {
@@ -172,24 +176,25 @@ nav {
 /************************* styling About section starts here*******************************************************/
 #about h1 {
   margin-bottom: 50px;
-  color: #BFA10A;
+  color: #bfa10a;
 }
 
 .image {
   width: 100%;
   height: auto;
-  border: 2px solid #FCF9E9;
+  border: 2px solid #fcf9e9;
 }
 
-.cole, .altman {
+.cole,
+.altman {
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 2px solid #BFA10A;
+  border: 2px solid #bfa10a;
 }
 
 .thecinematics {
-  border: 2px solid #BFA10A;
+  border: 2px solid #bfa10a;
   margin: 0 auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -236,8 +241,8 @@ nav {
 
 .btn {
   background-color: transparent;
-  border: 2px solid #FCF9E9;
-  color: #BFA10A;
+  border: 2px solid #fcf9e9;
+  color: #bfa10a;
   font-family: zingendeL;
   font-size: 20px;
   padding: 10px 25px;
@@ -250,12 +255,13 @@ nav {
 
 .btn:hover {
   background-color: #3e3f59;
-  color: #BFA10A;
+  color: #bfa10a;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
 
-.btn-cole, .btn-altman {
+.btn-cole,
+.btn-altman {
   display: inline-block;
 }
 
@@ -270,7 +276,7 @@ nav {
 }
 
 .bio p {
-  color: #FCF9E9;
+  color: #fcf9e9;
   font-size: 1em;
 }
 
@@ -288,10 +294,21 @@ nav {
   #triangle-right {
     display: none;
   }
-  #contact {
+  .form-group {
+    margin-bottom: .3rem;
+  }
+  #formz {
+    position: relative;
+    top: 2.5em;
+  }
+  #form {
     background-image: url("/prototype assets/gold_clapperboard-edit-Large.svg");
+    background-position: center top;
+    min-height: 920px;
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    padding-top: 22rem;
   }
 }
 
@@ -302,37 +319,38 @@ label {
 .form-control {
   background: #020126;
   border-radius: 0;
-  border: solid 2px #FCF9E9;
+  border: solid 2px #fcf9e9;
 }
 
 .btN {
-  padding: 5px 20px;
+  margin-top: .75em;
+  padding: .35em 1.6em;
   background: #020126;
-  color: #BFA10A;
-  border: solid 2px #FCF9E9;
+  color: #bfa10a;
+  border: solid 2px #fcf9e9;
   border-radius: 15px;
 }
 
 .page-footer {
-  border-top: 2px solid #BFA10A;
+  border-top: 2px solid #bfa10a;
   padding-top: 75px;
 }
 
 a:link {
-  color: #BFA10A;
+  color: #bfa10a;
 }
 
 a:visited {
-  color: #BFA10A;
+  color: #bfa10a;
 }
 
 a:hover {
-  color: #FCF9E9;
+  color: #fcf9e9;
 }
 
 .site {
   font-family: assistant;
-  color: #BFA10A;
+  color: #bfa10a;
   text-decoration: none;
   list-style-type: none;
   text-align: center;
@@ -344,7 +362,7 @@ a:hover {
 
 h5.map {
   font-family: assistant;
-  color: #FCF9E9;
+  color: #fcf9e9;
   font-size: 20px;
   text-align: center;
   padding-bottom: 15px;
@@ -352,7 +370,7 @@ h5.map {
 
 h5.social {
   font-family: assistant;
-  color: #FCF9E9;
+  color: #fcf9e9;
   font-size: 20px;
   text-align: center;
   padding-bottom: 45px;
@@ -364,6 +382,6 @@ h5.social {
 
 #end {
   font-family: assistant;
-  color: #BFA10A;
+  color: #bfa10a;
 }
 /*# sourceMappingURL=style.css.map */
